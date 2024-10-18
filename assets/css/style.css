@@ -4,3 +4,26 @@
     padding:0;
     box-sizing: border-box;
 }
+
+/* Debug Code  */
+.debug {
+    background-color: rgba(0, 255, 238, 0.2);
+    border: 1px solid rgb(47, 21, 130);
+    min-height:50px;
+}
+
+/* Utilities */
+
+nav ul {
+    list-style: none;
+}
+
+/* General page layout */
+
+.container {
+    width:80%;
+    max-width: 970px;
+    margin:auto
+}
+
+/* Specific styling */
