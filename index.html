@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,10 +9,10 @@
 <body>
 
     <header>
-        <div class="container debug navbar">
+        <div class="container navbar debug">
             <div class="row debug">
-                <div class="col logo debug">LOGO</div>
-                <div class="col nav debug">
+                <div class="col logo debug"><img src="#" alt=""></div>
+                <div class="col debug">
                     <nav>
                         <ul>
                             <li><a href="">BUTTON</a></li>
@@ -27,88 +27,101 @@
         </div>
     </header>
 
-    <main class="container debug">
-        <section class="hero debug">
-            <div class="hero-text debug">
+    <main>
+        <section id="hero" class="hero d_flex debug">
+            <div class="hero-text container debug">
                 <h1>TITOLO</h1>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati magni nisi nulla illum eum eligendi facilis sapiente pariatur ex reprehenderit ullam corrupti itaque repellat, asperiores assumenda possimus ab culpa impedit.</p>
             </div>
-            <div class="hero-buttons debug">
-                <button>Action 1</button>
-                <button>Action 2</button>
+            <div class="hero-buttons container d_flex debug">
+                <a href="#">Action 1</a>
+                <a href="#">Action 2</a>
             </div>
         </section>
+        <section id="page-content">
+            <div class="block">
+                <div class="container col2_60-40 d_flex debug">
+                    <div class="col debug">
+                        <img src="#" alt="Image">
+                    </div>
+                    <div class="col text_content debug">
+                        <h3>TITOLO</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti commodi fugit neque, omnis iste doloribus sint odit aspernatur. Nesciunt, esse!</p>
+                    </div>
+                </div>
+            </div>
 
-        <section class="2col_60-40 debug">
-            <div class="col1 debug">
-                <img src="#" alt="Image1">
+            <div class="wave-container-top"></div>
+            <div class="block bg-gray">
+                <div class="container col2_40-60 d_flex debug">
+                    <div class="col text_content debug">
+                        <h3>TITOLO</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti commodi fugit neque, omnis iste doloribus sint odit aspernatur. Nesciunt, esse!</p>
+                    </div>
+                    <div class="col debug">
+                        <img src="#" alt="Image">
+                    </div>
+                </div>
             </div>
-            <div class="col2 text_content debug">
-                <h3>TITOLO</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti commodi fugit neque, omnis iste doloribus sint odit aspernatur. Nesciunt, esse!</p>
-            </div>
-        </section>
+            <div class="wave-container-bottom"></div>
 
-        <section class="2col_40-60 debug">
-            <div class="col1 text_content debug">
-                <h3>TITOLO</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti commodi fugit neque, omnis iste doloribus sint odit aspernatur. Nesciunt, esse!</p>
+            <div class="block">
+                <div class="container col2_60-40 d_flex debug">
+                    <div class="col debug">
+                        <img src="#" alt="Image">
+                    </div>
+                    <div class="col text_content debug">
+                        <h3>TITOLO</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti commodi fugit neque, omnis iste doloribus sint odit aspernatur. Nesciunt, esse!</p>
+                    </div>
+                </div>
             </div>
-            <div class="col2 debug">
-                <img src="#" alt="Image1">
-            </div>
-        </section>
 
-        <section class="2col_60-40 debug">
-            <div class="col1 debug">
-                <img src="#" alt="Image1 debug">
+            <div class="wave-container-top"></div>
+            <div class="block bg-gray">
+                <div class="container boxed-content d_flex block debug">
+                    <div class="text debug">
+                        <h3>TITOLO</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, obcaecati animi amet a quaerat reiciendis facere fugiat, nesciunt quos delectus ipsa architecto. Nobis, totam natus!</p>
+                    </div>
+                    <div class="img-content debug">
+                        <img src="#" alt="#">
+                    </div>
+                    <div id="cta" class="debug">
+                        <h3>Call to action</h3>
+                        <a href="#">Click Me</a>
+                    </div>
+                </div>
             </div>
-            <div class="col2 text_content debug">
-                <h3>TITOLO</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti commodi fugit neque, omnis iste doloribus sint odit aspernatur. Nesciunt, esse!</p>
-            </div>
-        </section>
 
-        <section class="boxed-content debug">
-            <div class="text debug">
-                <h3>TITOLO</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, obcaecati animi amet a quaerat reiciendis facere fugiat, nesciunt quos delectus ipsa architecto. Nobis, totam natus!</p>
-            </div>
-            <div class="img-content debug">
-                <img src="#" alt="#">
-            </div>
-            <div id="cta">
-                <h3>Call to action</h3>
-                <button>Click Me</button>
-            </div>
         </section>
 
     </main>
 
     <footer>
 
-        <div class="container debug">
+        <div class="bg-dark">
 
             <!-- Top Footer -->
-            <div class="top-footer debug">
-                <div class="2col_30-70 debug">
-                    <div class="col1 debug">
+            <div class="container top-footer debug">
+                <div class="col2_30-70 d_flex debug">
+                    <div class="col debug">
                         <h5>TITOLO</h5>
                         <select name="lang-selector" id="lang-selector">
                             <option value="it">Italiano</option>
                             <option value="it">English</option>
                             <option value="it">Spanish</option>
                         </select>
-                        <div class="social-bar 4col_equal debug">
+                        <div class="social-bar 4col_equal d_flex debug">
                             <a href="#"><img src="#" alt=""></a>
                             <a href="#"><img src="#" alt=""></a>
                             <a href="#"><img src="#" alt=""></a>
                             <a href="#"><img src="#" alt=""></a>
                         </div>
                     </div>
-                    <div class="col2 debug">
-                        <div class="4col_equal debug">
-                            <div class="col1 debug">
+                    <div class="col debug">
+                        <div class="col4_equal d_flex debug">
+                            <div class="col debug">
                                 <span>NAV TITLE</span>
                                 <nav>
                                     <ul>
@@ -120,7 +133,7 @@
                                     </ul>
                                 </nav>
                             </div>
-                            <div class="col2 debug">
+                            <div class="col debug">
                                 <span>NAV TITLE</span>
                                 <nav>
                                     <ul>
@@ -132,7 +145,7 @@
                                     </ul>
                                 </nav>
                             </div>
-                            <div class="col3 debug">
+                            <div class="col debug">
                                 <span>NAV TITLE</span>
                                 <nav>
                                     <ul>
@@ -149,7 +162,7 @@
                                     </ul>
                                 </nav>
                             </div>
-                            <div class="col4 debug">
+                            <div class="col debug">
                                 <span>NAV TITLE</span>
                                 <nav>
                                     <ul>
@@ -168,9 +181,9 @@
             <!-- /Top Footer -->
 
             <!-- Bottom Footer  -->
-             <div class="bottom-footer debug">
+             <div class="container bottom-footer d_flex debug">
                 <img src="#" alt="">
-                <button>Register</button>
+                <a href="#" class="debug">Register</a>
              </div>
             <!-- Bottom Footer  -->
     
